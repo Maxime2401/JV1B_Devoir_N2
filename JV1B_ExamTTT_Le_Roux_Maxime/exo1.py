@@ -1,0 +1,42 @@
+nmb = 0
+
+
+for nmb in range(0,20):
+    print(nmb,end=" ")
+
+print("\n")
+
+choix = 20
+
+
+for nmb in range (0,choix):
+    if(nmb == 0):
+        print(choix * "* ")
+    elif(nmb == 6):
+        print(21 * "* ")
+
+    elif(nmb == choix-1):
+        print(21 * "* ")
+
+    elif(nmb == 13):
+        print(21 * "* ")
+    
+    else:
+        print("*",(10)*" ", "*",(10)*" ","*",(10)*" ","*")
+   
+
+joueur_1= 0
+Joueur_2= 1
+
+print ("Le Joueur 1 = O")
+print ("Le Joueur 2 = X")
+j=0
+while(j<8):
+    la_case =int(input("choisir la case entre 1 et 9"))
+
+   if (la_case=1):
+     print ("O")
+
+
+j+=1
+

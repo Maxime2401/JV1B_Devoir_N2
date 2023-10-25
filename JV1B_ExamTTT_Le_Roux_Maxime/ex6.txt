@@ -1,0 +1,1 @@
+on aura besoin de rajouter des cases et un systeme d'effet de gravité dans le placement des pions

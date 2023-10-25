@@ -1,0 +1,14 @@
+
+joueur_1= 0
+Joueur_2= 1
+
+print ("Le Joueur 1 = O")
+print ("Le Joueur 2 = X")
+j=0
+while(j<8):
+    la_case =int(input("choisir la case entre 1 et 9"))
+
+ # programe
+
+  j= j+1
+
